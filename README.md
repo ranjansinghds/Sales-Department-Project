@@ -17,20 +17,20 @@ This project focuses on analyzing sales data to uncover insights that can enhanc
 
 The project utilizes two primary datases:
 
-1. **store.csv*: Contains information about different stores, includig:
-   - **Store ID*: Unique identifier for each stoe.
-   - **Type*: Categorical variable indicating the type of stoe.
-   - **Size*: The physical size of the stoe.
+1. **store.csv**: Contains information about different stores, includig:
+   - **Store ID**: Unique identifier for each stoe.
+   - **Type**: Categorical variable indicating the type of stoe.
+   - **Size**: The physical size of the stoe.
 
-2. **train.csv*: Includes historical sales data with features such s:
-   - **Store ID*: Reference to the stoe.
-   - **Date*: The date of the sales recod.
-   - **Weekly Sales*: Sales figures for the given week.
-   - **Holiday Flag*: Indicator of whether the week includes a holidy.
-   - **Temperature*: Average temperature for the week.
-   - **Fuel Price*: Cost of fuel during the week.
-   - **CPI*: Consumer Price Index.
-   - **Unemployment*: Unemployment rate during the week.
+2. **train.csv**: Includes historical sales data with features such s:
+   - **Store ID**: Reference to the stoe.
+   - **Date**: The date of the sales recod.
+   - **Weekly Sales**: Sales figures for the given week.
+   - **Holiday Flag**: Indicator of whether the week includes a holidy.
+   - **Temperature**: Average temperature for the week.
+   - **Fuel Price**: Cost of fuel during the week.
+   - **CPI**: Consumer Price Index.
+   - **Unemployment**: Unemployment rate during the week.
 
 ## 🚀 Installation
 
@@ -98,5 +98,5 @@ Here are some visualizations from the project:
 ## 📌 Future Improvements
 
 - **Advanced Time Series Moels**: Implement models like ARIMA or Prophet for more accurate sales foreasting.
-- **Incorporate Additional ata**: Integrate external data sources such as economic indicators or competitor pricing to enhance model perfrmance.
+- **Incorporate Additional Data**: Integrate external data sources such as economic indicators or competitor pricing to enhance model perfrmance.
 - **Interactive Dashbords**: Develop dashboards using tools like Tableau or Power BI for real-time sales monitoring and decision upport.
