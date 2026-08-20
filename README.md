@@ -18,12 +18,12 @@ This project focuses on analyzing sales data to uncover insights that can enhanc
 The project utilizes two primary datases:
 
 1. **store.csv**: Contains information about different stores, includig:
-   - **Store ID**: Unique identifier for each stoe.
-   - **Type**: Categorical variable indicating the type of stoe.
-   - **Size**: The physical size of the stoe.
+   - **Store ID**: Unique identifier for each store.
+   - **Type**: Categorical variable indicating the type of store.
+   - **Size**: The physical size of the store.
 
 2. **train.csv**: Includes historical sales data with features such s:
-   - **Store ID**: Reference to the stoe.
+   - **Store ID**: Reference to the store.
    - **Date**: The date of the sales recod.
    - **Weekly Sales**: Sales figures for the given week.
    - **Holiday Flag**: Indicator of whether the week includes a holidy.
